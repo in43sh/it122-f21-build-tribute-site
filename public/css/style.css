@@ -1,0 +1,47 @@
+.main {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hayao {
+  display: flex;
+}
+
+.hayao__hayao-img {
+  height: 353px;
+}
+
+.hayao__hayao-at-work-img {
+  height: 330px;
+  margin-top: 1rem;
+}
+
+.hayao__text-container {
+  margin-left: 3rem;
+}
+
+.hayao-works {
+  display: flex;
+  flex-direction: column;
+}
+
+.hayao-works__images-container {
+  margin-top: 30px;
+}
+
+.hayao-works__imager-container-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.hayao-works__imager-container-row--bottom {
+  margin-top: 1rem;
+}
+
+.text {
+  line-height: 150%;
+  font-size: 18px;
+}
