@@ -1,5 +1,5 @@
 {
-  "name": "wk02-basic-website",
+  "name": "it122-f21-build-tribute-site",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/in43sh/wk02-basic-website.git"
+    "url": "git+https://github.com/in43sh/it122-f21-build-tribute-site.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/in43sh/wk02-basic-website/issues"
+    "url": "https://github.com/in43sh/it122-f21-build-tribute-site/issues"
   },
-  "homepage": "https://github.com/in43sh/wk02-basic-website#readme",
+  "homepage": "https://github.com/in43sh/it122-f21-build-tribute-site#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
