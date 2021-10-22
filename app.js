@@ -20,18 +20,6 @@ app.get('', (req, res) => {
   res.render('index', {text: 'This is EJS'})
 });
 
-app.get('/about', (req, res) => {
-  res.render('about', {text: 'About Us'})
-});
-
-app.get('/post', (req, res) => {
-  res.render('post', {text: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit"'})
-});
-
-app.get('/contact', (req, res) => {
-  res.render('contact', {text: 'Contact Us'})
-});
-
 // let listener = app.listen();
 // console.log(`Listening to port number ${listener.address().port}`);
 const server = app.listen( port, () => console.log(`Listening on port: ${port}`) );
